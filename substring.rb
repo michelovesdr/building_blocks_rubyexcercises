@@ -6,7 +6,7 @@ def main
 end
 
 def substring(word, dictionary)
-    puts "hello mom"
+    puts "It is included"
     word.downcase!
     result = Hash.new(0)
     dictionary.each do |substring|
